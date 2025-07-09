@@ -20,7 +20,7 @@ body {
 
 
 .header {
-  background-image: url('./images/pattern-bg-desktop.png');
+  background-image: url('/images/pattern-bg-desktop.png');
   background-size: cover;
   background-position: center;
   color: white;
@@ -122,7 +122,7 @@ body {
     }
 
     .header {
-        background-image: url('./images/pattern-bg-mobile.png');
+        background-image: url('/images/pattern-bg-mobile.png');
     }
 
     .header h1 {
