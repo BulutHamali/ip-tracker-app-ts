@@ -21,6 +21,9 @@ This is a responsive IP address tracker application built with React, TypeScript
 - Leaflet (react-leaflet)
 - IPify API (for current IP detection)
 - Google DNS API (for domain to IP resolution)
+  
+## Live Demo
+[Check it out here](https://radiant-phoenix-c1ae72.netlify.app/)
 
 ## Getting Started
 
@@ -73,6 +76,17 @@ src/
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+## Reflection Document
+This project served as an excellent opportunity to deepen my understanding of building a full-stack React application with TypeScript. The primary goal was to create an IP address tracker capable of retrieving and displaying real-time location data on an interactive map.
+
+One of the more complex aspects of the development process was handling IP/domain resolution while managing asynchronous data flow cleanly using custom hooks and utility functions. Initially, there were challenges with fetching accurate geolocation data when differentiating between IP addresses and domain names. I resolved this by integrating both the IPify and IPWhois APIs—one to retrieve the client’s IP and the other to fetch detailed metadata.
+
+Styling and layout, particularly the overlay positioning of the information card above the map, required careful use of CSS and responsive design considerations. I also encountered deployment-specific issues, such as broken background images, which were resolved by properly referencing assets from the public/ directory using absolute paths.
+
+Going forward, this project could be improved by implementing better error handling, loading states, and validating user input. Additionally, consolidating API calls through a single robust geolocation provider could simplify the architecture. Overall, the project sharpened my frontend and API integration skills and gave me practical experience with React hooks, environment variables, and deploying to Netlify.
 
 ## Author
 
